@@ -118,4 +118,9 @@
   .activity-item .activity-item-text {
     width: 100%;
   }
+
+  .activity-item:hover {
+    transform: scale(1.1);
+    border: 2px solid #fff;
+  }
 }
