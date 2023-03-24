@@ -11,6 +11,7 @@ const mainContainer=document.createElement("div");
 mainContainer.id="main";
 performerContainer.insertAdjacentElement("afterend",mainContainer);
 
+
 const singer =[
     {
     id:1,
@@ -68,10 +69,58 @@ const htmlStructure=(id,name,occupation,description,image)=>`
         <p class="singer-description">${description}</p>
     </div>
 </div>
-`
+`;
 
 singer.forEach((sing)=>{
     const html=htmlStructure(sing.id,
         sing.name,sing.occupation,sing.description,sing.image);
         main.innerHTML+=html;
+});
+
+//more singer button
+const moreSingers = document.createElement('div');
+performer.appendChild(moreSingers);
+moreSingers.classList.add('moreSingerBtn-Container');
+const moreSingersBtn = document.createElement('button');
+moreSingersBtn.textContent = 'More Singers';
+moreSingersBtn.classList.add('moreSingerBtn');
+moreSingers.appendChild(moreSingersBtn);
+const moreSingersBtnIcon = document.createElement('img');
+moreSingersBtnIcon.src = "./Assets/more-singers.png"
+moreSingersBtnIcon.classList.add('moreSingerBtn-Icon');
+moreSingersBtn.appendChild(moreSingersBtnIcon);
+
+
+//event listener for more singer btn;
+const moreBtn = document.querySelector('.moreSingerBtn');
+const hiddenSingers = [
+document.getElementById('singer-3'),
+document.getElementById('singer-4'),
+document.getElementById('singer-5'),
+document.getElementById('singer-6')
+];
+
+moreBtn.addEventListener('click', ()=>{
+    hiddenSingers.forEach(singer => {
+        singer.style.display='flex';
+    });
+});
+
+// Mobile menu
+
+const ham=document.querySelector(".hamBtn");
+const closeBtn=document.querySelector(".closeBtn");
+const mobMenu=document.querySelector(".mob-menu");
+
+
+ham.addEventListener('click',()=>{
+    mobMenu.style.display="flex";
+});
+
+closeBtn.addEventListener('click',()=>{
+    mobMenu.style.display="none";
+});
+
+mobMenu.addEventListener('click',()=>{
+    mobMenu.style.display="none";
 });
