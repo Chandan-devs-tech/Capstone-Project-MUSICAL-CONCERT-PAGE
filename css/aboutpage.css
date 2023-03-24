@@ -1,0 +1,334 @@
+.about-container {
+    /* padding: 0px 20px; */
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+
+.invitation-content-about{    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.invitation-content-about h1 {
+    color: #e63d09;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.invitation-content-about .welcome {
+    color: #e63d09;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.invitation-content-about p {
+    color: #0e111a;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    padding: 24px 10px ;
+    background-color: #fff;
+    border: 2px solid #fff;
+    max-width: 50rem;
+    margin-top: 3rem;
+}
+
+.contact-text {
+    color: #7A7A7A;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 0 40px;
+}
+
+.venue-about{
+    color: #7A7A7A;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 25px;
+    text-decoration: underline;
+}
+
+/*Logo section design*/
+.logo-section-container{
+    padding: 15px;
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #7A7A7A;
+}
+
+.logo-section-title, .past-title{
+    width: 85%;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.logo-section-text{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 21px;
+    color: #838383;
+    text-align: center;
+}
+
+.logo-section-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.logo-section-img{
+    width: 90%;
+}
+
+.past-rock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.past-img1-content {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.past-img1-container {
+    width: 334px;
+    height: 182px;
+    background: url("../Assets/mobile-img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.past-img1-overlay {
+    width: 334px;
+    height: 182px;
+    background: rgba(230,61,9,0.6);
+}
+
+.past-img2-container {
+    width: 334px;
+    height: 182px;
+    background: url("../Assets/mobile-img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.past-img2-overlay {
+    width: 334px;
+    height: 182px;
+    background: rgba(230,61,9,0.6);
+}
+
+.past-img3-content {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.sponsor-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0rem;
+    font-weight: 500;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sponser-about {
+    background-color:#414246;
+    color: #fff;
+    padding: 1rem 0;
+    position: relative;
+    overflow: hidden;
+    margin-top: 35px;
+}
+
+.past-text {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 21px;
+    color: #838383;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.footer-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 86px;
+}
+
+.past-imgs-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.footer-address {
+    color: #3B3E45;
+}
+
+.footer-para {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.footer-para-desktop {
+    display: none;
+}
+
+.footer-logo-img-about{
+    width: 85px;
+}
+
+.mob-menu2 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(230,61,9,0.6);
+    color: #fff;
+    display: none;
+    justify-content: space-between;
+    padding: 40px;
+    backdrop-filter: blur(10px);
+}
+
+.closeBtn2 {
+    font-size: 35px;
+    width: 22px;
+    height: 22px;
+}
+
+@media screen and (min-width: 768px){
+    .about-container {
+        padding: 80px 20px;
+    }
+
+    .logo-section-img {
+        /* width: 90%; */
+        height: 300.279419px;
+        width: 542px;
+        left: 108.5px;
+        top: 166px;
+        border-radius: 0px;
+    }
+
+    .logo-section-title, .past-title {
+        width: 85%;
+        font-style: normal;
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 28px;
+        margin-top: 50px;
+    }
+
+    .logo-section-text {
+        margin-top: 10px;
+        font-style: normal;
+        color: #838383;
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .past-text {
+        margin-top: 10px;
+        font-style: normal;
+        color: #838383;
+        text-align: center;
+        margin-bottom: 35px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .past-imgs-container {
+        display: flex;
+        gap: 25px;
+        flex-direction: row;
+    }
+
+    .sponser-about {
+        display: none;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #414246;
+        margin-top: 74px;
+        width: 100%;
+    }
+
+    .footer-para-desktop {
+        color: #fff;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.04em;
+        width: 75%;
+    }
+
+    .footer-para {
+        display: none;;
+    }
+
+    .footer-logo-about {
+        margin-right: 0;
+        margin-left: 150px;
+    }
+
+    .footer-logo-img-about {
+        width: 120px;
+    }
+
+}
