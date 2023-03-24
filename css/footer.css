@@ -12,17 +12,6 @@
   align-items: center;
 }
 
-.footer-logo {
-  width: 15%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-logo-img {
-  width: 85px;
-}
-
 .footer-adress {
   margin-left: 60px;
   display: flex;
@@ -31,7 +20,7 @@
 }
 
 .footer-para-home {
-  color: #000000;
+  color: #000;
   font-weight: 700;
   font-size: 14px;
   line-height: 28px;
@@ -44,6 +33,10 @@
 .footer-logo {
   margin-right: 0;
   margin-left: 150px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-logo-img {

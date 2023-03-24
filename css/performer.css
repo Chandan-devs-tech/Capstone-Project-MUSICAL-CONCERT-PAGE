@@ -74,18 +74,21 @@
   background-size: 20% 18%;
   background-repeat: no-repeat;
 }
+
 #singer-3,
 #singer-4,
 #singer-5,
 #singer-6 {
   display: none;
 }
+
 .moreSingerBtn-Container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
 }
+
 .moreSingerBtn {
   display: flex;
   justify-content: center;
@@ -97,10 +100,12 @@
   width: 80%;
   height: 50px;
 }
+
 .moreSingerBtn-Icon {
   width: 22px;
   rotate: 90deg;
 }
+
 @media screen and (min-width: 768px) {
   #main {
     display: grid;
@@ -129,12 +134,14 @@
     position: relative;
     margin-left: 12px;
   }
+
   #singer-3,
   #singer-4,
   #singer-5,
   #singer-6 {
     display: flex;
   }
+
   .moreSingerBtn-Container {
     display: none;
   }
