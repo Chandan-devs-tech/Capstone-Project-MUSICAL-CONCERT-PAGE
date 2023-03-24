@@ -96,9 +96,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://chandan-devs-tech.github.io/Capstone-project/)
+
+- Desktop Version
 
   <img src="Assets/Capstone_Project-Screenshot-Of-Desktop_Version.png" alt="desktop-version" width="800"  height="auto" />
+
+- Mobile Version
 
   <img src="Assets/Capstone_Project-Screenshot-Of-Mobile_Version.png" alt="mobile-version" width="375"  height="auto" />
 
@@ -128,7 +132,7 @@
 - Open a command-line interface (e.g. Terminal on Mac or Linux, Command Prompt on Windows).
 - Navigate to the folder where you want to clone the repository using the cd command.
 - Use the git clone command followed by the repository's URL to clone the repository. For example:
-  git clone https://github.com/username/repository.git
+  git clone https://github.com/Chandan-devs-tech/Capstone-project.git
 - Press enter and wait for the repository to finish cloning.
 
 ### Install
@@ -184,7 +188,7 @@
 
 - The features I will add to the project are :
 
-  - [ ] **[Improved mobile responsiveness]**
+  - [ ] **[Improve mobile responsiveness]**
   - [ ] **[Integration with a back-end database]**
   - [ ] **[User authentication and account creation]**
 
@@ -220,7 +224,7 @@
 
 - I would like to express my gratitude to the following individuals and resources who have inspired and contributed to this project:
 
-  - [SanaTameem](https://github.com/SanaTameem)
+  - [SanaTameem](https://www.linkedin.com/in/sana-tameem-a63b55240/)
   - [Nemwel Boniface](https://twitter.com/nemwel_bonie)
 
 - Their work and insights have helped me to develop my skills and understanding, and have contributed to the success of this project. I also want to thank the Microverse community for their collective efforts in making software development accessible and collaborative.
