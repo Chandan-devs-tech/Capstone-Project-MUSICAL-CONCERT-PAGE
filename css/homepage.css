@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+.menu-btn {
+  height: 63px;
+  background: transparent;
+  padding-top: 17px;
+  padding-left: 23px;
+  width: 100%;
+  position: absolute;
+}
+
+.homepage-container {
+  padding: 0 20px;
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+.invitation-content h1 {
+  color: #e63d09;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.mobile-bg {
+  background-image: url("../Assets/mobile-bg.png");
+}
+
+.invitation-content .welcome {
+  color: #e63d09;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.invitation-content p {
+  color: #0e111a;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  border: 2px solid #fff;
+  max-width: 42rem;
+  margin-top: 3rem;
+}
+
+.invitation-content .realTime {
+  color: #252b38;
+  font-weight: 900;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.invitation-content .venue {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mob-menu {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(230, 61, 9, 0.6);
+  color: #fff;
+  display: none;
+  justify-content: space-between;
+  padding: 40px;
+  backdrop-filter: blur(10px);
+}
+
+.menu-list {
+  list-style-type: none;
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+.closeBtn {
+  font-size: 35px;
+  width: 22px;
+  height: 22px;
+}
+
+.menu-items {
+  padding-bottom: 25px;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .top-header,
+  .logo,
+  .navbar-right {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top-header {
+    background: #3e3e3e;
+  }
+
+  .top-header-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+    list-style-type: none;
+  }
+
+  .top-header-content a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+  }
+
+  .invitation-content h1 {
+    font-size: 55px;
+  }
+
+  .invitation-content {
+    padding-left: 60px;
+  }
+
+  .social-img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .logo-img {
+    height: 110px;
+    width: 130px;
+  }
+
+  .navbar-right {
+    padding-top: 30px;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+  }
+
+  .navbarItems {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .item {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #868686;
+    margin-right: 60px;
+    text-decoration: none;
+  }
+
+  .about-item {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    text-decoration: none;
+    color: #f07f7e;
+  }
+
+  .btn-nav {
+    border: 5px solid #f07f7e;
+    padding: 10px;
+    color: #f07f7e;
+  }
+
+  .desktop-bg {
+    background: url("../Assets/desktop-bg-img.png");
+  }
+
+  .homepage-container {
+    padding: 80px 20px;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+}

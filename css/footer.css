@@ -1,0 +1,50 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 160px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-adress {
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-para-home {
+  color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.04em;
+  width: 75%;
+}
+
+.footer-logo {
+  margin-right: 0;
+  margin-left: 150px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo-img {
+  width: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: none;
+  }
+}

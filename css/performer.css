@@ -1,0 +1,148 @@
+.singer-image {
+  width: 80%;
+  margin-top: -6px;
+  margin-right: 5px;
+}
+
+.singer-image img {
+  margin-top: 11px;
+  width: 100%;
+  position: relative;
+}
+
+.singer-name {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.singer-line {
+  border: 1px solid #97989b;
+  width: 30px;
+  margin-left: 0;
+  margin-bottom: 5.5px;
+}
+
+.singer-occupation {
+  color: #e63d09;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  position: relative;
+  padding-bottom: 1.2rem;
+}
+
+.singer-description {
+  font-size: 12px;
+  font-weight: 400;
+  max-width: 20rem;
+}
+
+.singer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.featureTitle {
+  text-align: center;
+  font-weight: 500;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  color: #252b38;
+  font-size: 20px;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  gap: 2rem;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.singer-container {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  position: relative;
+  background-image: url(../Assets/cheque.png);
+  background-size: 20% 18%;
+  background-repeat: no-repeat;
+}
+
+#singer-3,
+#singer-4,
+#singer-5,
+#singer-6 {
+  display: none;
+}
+
+.moreSingerBtn-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.moreSingerBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  width: 80%;
+  height: 50px;
+}
+
+.moreSingerBtn-Icon {
+  width: 22px;
+  rotate: 90deg;
+}
+
+@media screen and (min-width: 768px) {
+  #main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 1rem 5rem;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .singer-container {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    position: relative;
+    background-image: url("../Assets/cheque.png");
+    background-size: 21% 31%;
+    background-repeat: no-repeat;
+  }
+
+  .singer-image img {
+    margin-top: 15px;
+    width: 60%;
+    position: relative;
+    margin-left: 12px;
+  }
+
+  #singer-3,
+  #singer-4,
+  #singer-5,
+  #singer-6 {
+    display: flex;
+  }
+
+  .moreSingerBtn-Container {
+    display: none;
+  }
+}
