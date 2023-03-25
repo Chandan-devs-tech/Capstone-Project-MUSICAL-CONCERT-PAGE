@@ -98,6 +98,8 @@
 
 - [Live Demo Link](https://chandan-devs-tech.github.io/Capstone-Project-MUSICAL-CONCERT-PAGE/)
 
+- [Video Link](https://www.loom.com/share/316850bd0ebf46519775e2f2212e43e8)
+
 - Desktop Version
 
   <img src="Assets/Capstone_Project-Screenshot-Of-Desktop_Version.png" alt="desktop-version" width="800"  height="auto" />
