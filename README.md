@@ -98,7 +98,7 @@
 
 - [Live Link](https://chandan-devs-tech.github.io/Capstone-Project-MUSICAL-CONCERT-PAGE/)
 
-- [Video Link](https://www.loom.com/share/316850bd0ebf46519775e2f2212e43e8)
+- [Video Link](https://www.loom.com/share/60e0be9af8b0499aa787bf355357c5c9)
 
 - Desktop Version
 
