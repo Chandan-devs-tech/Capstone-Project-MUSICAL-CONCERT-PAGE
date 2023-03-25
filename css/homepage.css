@@ -10,10 +10,9 @@
 
 .menu-btn {
   height: 63px;
-  background: #fff;
+  background: transparent;
   padding-top: 17px;
   padding-left: 23px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   width: 100%;
   position: absolute;
 }

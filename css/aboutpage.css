@@ -1,7 +1,12 @@
 .about-container {
-  /* padding: 0px 20px; */
   padding-top: 130px;
   padding-bottom: 70px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .invitation-content-about {
@@ -55,7 +60,6 @@
   text-decoration: underline;
 }
 
-/* Logo section design */
 .logo-section-container {
   padding: 15px;
   margin-top: 34px;
@@ -87,9 +91,6 @@
 }
 
 .logo-section-img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 90%;
 }
 
@@ -98,18 +99,12 @@
 }
 
 .past-rock {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-top: 35px;
 }
 
 .past-img1-content {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100%;
   text-align: center;
 }
@@ -249,7 +244,6 @@
   }
 
   .logo-section-img {
-    /* width: 90%; */
     height: 300.279419px;
     width: 542px;
     left: 108.5px;
@@ -257,12 +251,15 @@
     border-radius: 0;
   }
 
-  .logo-section-title,
-  .past-title {
-    width: 85%;
+  .normal-center-text {
     font-style: normal;
     text-align: center;
     font-weight: 700;
+  }
+
+  .logo-section-title,
+  .past-title {
+    width: 85%;
     font-size: 30px;
     line-height: 28px;
     margin-top: 50px;
@@ -270,21 +267,15 @@
 
   .logo-section-text {
     margin-top: 10px;
-    font-style: normal;
     color: #838383;
-    text-align: center;
-    font-weight: 700;
     font-size: 16px;
     line-height: 21px;
   }
 
   .past-text {
     margin-top: 10px;
-    font-style: normal;
     color: #838383;
-    text-align: center;
     margin-bottom: 35px;
-    font-weight: 700;
     font-size: 16px;
     line-height: 21px;
   }
