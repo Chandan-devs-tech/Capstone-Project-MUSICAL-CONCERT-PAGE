@@ -96,7 +96,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://chandan-devs-tech.github.io/Capstone-project/)
+- [Live Demo Link](https://chandan-devs-tech.github.io/Capstone-Project-MUSICAL-CONCERT-PAGE/)
 
 - Desktop Version
 
