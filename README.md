@@ -226,10 +226,7 @@
 
 - I would like to express my gratitude to the following individuals and resources who have inspired and contributed to this project:
 
-  - [SanaTameem](https://www.linkedin.com/in/sana-tameem-a63b55240/)
-  - [Nemwel Boniface](https://twitter.com/nemwel_bonie)
-
-- Their work and insights have helped me to develop my skills and understanding, and have contributed to the success of this project. I also want to thank the Microverse community for their collective efforts in making software development accessible and collaborative.
+- [ ][cindy shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).This project is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -259,6 +256,8 @@
 
 ## 📝 License <a name="license"></a>
 
-- This project is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
+This project is [MIT](https://github.com/Chandan-devs-tech/Capstone-Project-MUSICAL-CONCERT-PAGE/blob/feature/capstone/MIT.md) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
